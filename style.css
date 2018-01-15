@@ -1,0 +1,107 @@
+.container{
+    	margin: 10px;
+    	padding: 10px;
+    	background: #E6E6E6;
+    	border-radius:20px;
+
+}
+.container-header{
+	text-align: center;
+	margin-top: -5px;
+}
+.color-table td{
+	height: 50px;
+	width: 50px;
+	background: #53bfdc;
+	text-align: center;
+}
+.hoverme{
+	display: block;
+	height: 50px;
+	width: 50px;
+	background: #53bfdc;
+	text-align: center;
+	line-height: 50px;
+
+}
+/*-----------Line3------------*/
+.slider{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.photos{
+	position: relative;
+	height: 770px;
+}
+
+.photos img{
+	position: absolute;
+	width:0;
+}
+
+.rb {
+	top: auto;
+	left: auto;
+	right: 0;
+	bottom: 0;
+}
+.photos img.active{
+	opacity:1;
+}
+/*-----------Line4------------*/
+.box{
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	background: #000;
+	box-sizing: border-box;
+}
+.bordered{
+	border: 3px solid red;
+}
+
+/*-----------Line5(frame)------------*/
+
+.proportional{
+	position: relative;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.proportional_spacer{
+	padding-top:50%;
+	
+}
+
+.proportional_frame{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #000;
+}
+
+/*-----------Line6(menu)------------*/
+.nav .nav-menu li{
+	display: inline-block;
+	padding: 0 15px;
+}
+.nav .menu-button{
+	display: none;
+	cursor: pointer;
+	padding-left: 40px;
+}
+
+@media screen and (max-width: 760px){
+	.nav .nav-menu{
+		display:none;
+	}
+	.nav .nav-menu li{
+		display: block;
+	}
+	.nav .menu-button{
+		display: block;
+	}
+}
